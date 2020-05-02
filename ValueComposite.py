@@ -1,14 +1,16 @@
 """
-the purpose of this script is to rank stocks after a number of performance indicators.
-For Value Composite (sammansatt värde): 
+Sorting stocks after key performance indicators (KPI).
+Data from borsdata.com will be formated correctly. 
+Value Composite uses following KPI's:
 P/E (pris/vinst), 
 P/B (pris/eget kapital), 
 P/S (pris/försäljning), 
 P/FCF (pris/fritt kassaflöde), 
 EV/EBITDA (företagsvärde/rörelseresultat före avskrivningar och amorteringar)
 
-Lägg till momentum/trend för att få value momentum/trendande värde
-Görs med ett sammasatt mått på momentum efter 3,6,12 månaders prisuppgång. 
+Requirements:
+-borsdata.csv
+Datafile from borsdata.com to be analyzed. 
 """
 
 
